@@ -11,3 +11,7 @@ export const Hoge: React.FC<Props> = ({ message }) => {
         </>
     );
 };
+
+export function sum(a: number, b: number): number {
+    return a + b;
+}

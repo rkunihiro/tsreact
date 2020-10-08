@@ -9,7 +9,7 @@ export const App: React.FC = () => {
         return () => {
             console.log(`App#useEffect callback`);
         };
-    });
+    }, []);
     const onClick = () => {
         setMessage(new Date().toISOString());
     };
